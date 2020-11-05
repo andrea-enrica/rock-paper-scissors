@@ -2,7 +2,7 @@
     margin: 0;
     border: 0;
     padding: 100px;
-    background: url('/media/wallpaperflare.com_wallpaper.jpg') repeat-y;
+    background: url('media/wallpaperflare.com_wallpaper.jpg') repeat-y;
     background-size: cover;
   }
 
@@ -68,17 +68,17 @@
 }
 
 #Rock {
-    background: url('/media/32248699.jpg') no-repeat;
+    background: url('media/32248699.jpg') no-repeat;
     background-size: 100%;
 }
 
 #Paper {
-    background: url('/media/5877570.jpg') no-repeat;
+    background: url('media/5877570.jpg') no-repeat;
     background-size: 100%;
 }
 
 #Scissors {
-    background: url('/media/1315847.jpg') no-repeat;
+    background: url('media/1315847.jpg') no-repeat;
     background-size: 100%;
 }
 
