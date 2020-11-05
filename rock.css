@@ -1,0 +1,95 @@
+.box{
+    margin: 0;
+    border: 0;
+    padding: 100px;
+    background: url('/home/enrica/Documents/work-space/the_odin_project/rock-paper-scissors/media/wallpaperflare.com_wallpaper.jpg') repeat-y;
+    background-size: cover;
+  }
+
+.headers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;;
+    margin-bottom: 15px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+#roundSelection{
+    order: 4;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+#roundResult{
+    order: 3;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.score{
+    order: 2;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+#finalButton{
+    order: 1;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: transparent;
+    font-size: 30px;
+}
+
+.choices {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#Rock, #Paper, #Scissors{
+    padding: 100px;
+    cursor: pointer; 
+    margin: auto;
+    background-color: transparent; 
+    transition: all 0.7s ease;
+    border: 1px transparent;
+    border-radius: 50%;
+    outline: transparent;
+}
+
+#Rock {
+    background: url('/home/enrica/Documents/work-space/the_odin_project/rock-paper-scissors/media/32248699.jpg') no-repeat;
+    background-size: 100%;
+}
+
+#Paper {
+    background: url('/home/enrica/Documents/work-space/the_odin_project/rock-paper-scissors/media/5877570.jpg') no-repeat;
+    background-size: 100%;
+}
+
+#Scissors {
+    background: url('/home/enrica/Documents/work-space/the_odin_project/rock-paper-scissors/media/1315847.jpg') no-repeat;
+    background-size: 100%;
+}
+
+.playing {
+    transform: scale(1.5);
+    border-color: #722603;
+    box-shadow: 0 0 10rem #722603;
+    border-radius: 50%;
+    border: 2px transparent;
+}
+
+.hidden {
+    display: none;
+}
