@@ -10,7 +10,7 @@ function playRound(selection) {
     var player = selection;
     var computer = computerPlay();
     var gameResult = "";
-   
+    
     if (player === "Rock" && computer === "Rock") {
         gameResult = "tie";
         roundResult.textContent = "Tie round! No winners.";
@@ -112,7 +112,6 @@ function roundPlayAndScore(button) {
     computerScoreElement.textContent = ("Computer score: " + computerScore);
     container.appendChild(playerScoreElement);
     container.appendChild(computerScoreElement);
-
     roundSelection.classList.remove('hidden');
     roundResult.classList.remove('hidden');
 }
@@ -127,7 +126,6 @@ function resetGame() {
         computerScoreElement.textContent = ("Computer score: " + computerScore);
         container.appendChild(playerScoreElement);
         container.appendChild(computerScoreElement);
-
         roundSelection.classList.add('hidden');
         roundResult.classList.add('hidden');
         finalButton.classList.add('hidden');
